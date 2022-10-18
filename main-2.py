@@ -31,6 +31,6 @@ class YaUploader:
 if __name__ == '__main__':
     """Получить путь к загружаемому файлу и токен от пользователя"""
     path_to_file = 'HomeWork.docx'
-    token = 'y0_AgAAAAAxwQGHAADLWwAAAADRYbEM0OPRO3BFTAunGx2puooRXRUEQ10'
+    token = ''
     uploader = YaUploader(token)
     uploader.upload_file_to_disk(path_to_file, "HomeWork.docx")
